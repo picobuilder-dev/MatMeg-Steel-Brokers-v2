@@ -186,7 +186,14 @@ img{max-width:100%;display:block}
 .card-icon{font-size:2rem;margin-bottom:.75rem}
 .card h3{font-size:1.1rem;color:var(--blue);margin-bottom:.5rem}
 .card p{font-size:.9rem;color:var(--gray-600)}
+.featured-card{
+  border:3px solid #1e3a5f;
+  transform:scale(1.03);
+}
 
+.featured-card h3{
+  color:#1e3a5f;
+}
 /* === About === */
 .about-simple {
   max-width: 800px;
@@ -309,4 +316,14 @@ img{max-width:100%;display:block}
 
 .whatsapp-float:hover {
   transform: scale(1.08);
+}
+
+.gallery-item{
+  text-align:center;
+}
+
+.gallery-item p{
+  margin-top:.75rem;
+  font-weight:600;
+  color:#1e3a5f;
 }
