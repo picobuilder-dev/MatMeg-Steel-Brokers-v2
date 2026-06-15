@@ -327,3 +327,11 @@ img{max-width:100%;display:block}
   font-weight:600;
   color:#1e3a5f;
 }
+
+@media (max-width: 768px){
+
+  .gallery-grid{
+    grid-template-columns:1fr;
+  }
+
+}
