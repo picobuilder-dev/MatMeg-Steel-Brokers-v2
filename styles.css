@@ -175,7 +175,7 @@ img{max-width:100%;display:block}
 }
 /* === Sections === */
 .section{padding:5rem 0}
-.section-alt{background:var(--gray-50)}
+.section-alt{background:#D7E6F2;}
 .section-title{font-size:2rem;font-weight:700;color:var(--blue);text-align:center;margin-bottom:.5rem}
 .section-subtitle{text-align:center;color:var(--gray-600);margin-bottom:2.5rem;max-width:560px;margin-left:auto;margin-right:auto}
 
@@ -255,7 +255,11 @@ img{max-width:100%;display:block}
 /* ================= TINTED SECTION ================= */
 
 .section-tinted{
-  background:#dfeaf7;
+  background:#FFFFFF;
+}
+
+#services{
+  background:#D7E6F2;
 }
 
 /* === Placeholder images === */

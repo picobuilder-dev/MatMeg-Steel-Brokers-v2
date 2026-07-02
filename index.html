@@ -66,6 +66,29 @@ m<!DOCTYPE html><html lang="en">
 
 </section>
 
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container about-simple">
+
+    <h2 class="section-title">About MatMeg Steel Brokers</h2>
+
+    <p class="section-subtitle">
+      Connecting businesses with reliable steel supply and processing solutions.
+    </p>
+
+    <div class="about-content">
+      <p>
+        MatMeg Steel Brokers works with a trusted network of suppliers and processors to source, cut, and deliver steel tailored to your project requirements.
+      </p>
+
+      <p>
+        We simplify the process by managing sourcing and coordination, ensuring you receive the right materials, to the right specifications, on time.
+      </p>
+    </div>
+
+  </div>
+
+</section>
 <!-- SERVICES -->
 <section class="section" id="services">
   <div class="container">
@@ -163,29 +186,7 @@ m<!DOCTYPE html><html lang="en">
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="section section-alt" id="about">
-  <div class="container about-simple">
 
-    <h2 class="section-title">About MatMeg Steel Brokers</h2>
-
-    <p class="section-subtitle">
-      Connecting businesses with reliable steel supply and processing solutions.
-    </p>
-
-    <div class="about-content">
-      <p>
-        MatMeg Steel Brokers works with a trusted network of suppliers and processors to source, cut, and deliver steel tailored to your project requirements.
-      </p>
-
-      <p>
-        We simplify the process by managing sourcing and coordination, ensuring you receive the right materials, to the right specifications, on time.
-      </p>
-    </div>
-
-  </div>
-
-</section>
 
 <!-- WHY -->
 <section class="section section-alt" id="why">
@@ -297,10 +298,20 @@ m<!DOCTYPE html><html lang="en">
 </section>
 <!-- Footer -->
 <footer class="footer">
+
   <div class="container footer-inner">
-    <p>&copy; 2026 MatMeg Steel Brokers. All rights reserved.</p>
-    <p>Nationwide. Based in Gauteng.</p>
-    <p>Built by <strong>PicoBuilder</strong> | Affordable websites for growing businesses</p>
+
+    <p>&copy; <span id="year"></span> MatMeg Steel Brokers. All rights reserved.</p>
+
+    <p>Steel Brokers • Industrial Steel Supply • Nationwide Delivery</p>
+
+    <p>
+      Website built by
+      <a href="https://picobuilder.co.za">
+        PicoBuilder
+      </a>
+    </p>
+
   </div>
 
 </footer>
@@ -319,6 +330,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 window.addEventListener('scroll',()=>{
   document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);
 });
+document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 <a 
   href="https://wa.me/27764614611?text=Hi%20MatMeg%20Steel%20Brokers.%20I%20would%20like%20a%20quote%20for%20steel%20products%20or%20services.%20Please%20contact%20me."
